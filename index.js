@@ -5,6 +5,7 @@ class BoardMember {
     this.training = training;
   }
 
-  veto: () => "No, I must disagree";
+  veto() {
+    return "No, I must disagree"
   }
 }
